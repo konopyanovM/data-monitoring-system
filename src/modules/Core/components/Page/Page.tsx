@@ -63,17 +63,37 @@ const Page: FC<PageProps> = ({ children }) => {
     ),
   ]
 
+  const items1: MenuProps['items'] = ['1', '2', '3'].map((key) => ({
+    key,
+    label: `nav ${key}`,
+  }))
+
   return (
-    <Layout style={{ minHeight: '100vh' }}>
-      <Sider
-        collapsible
-        collapsed={collapsed}
-        onCollapse={(value) => setCollapsed(value)}
-      >
-        <Menu theme='dark' mode='inline' items={items} />
-      </Sider>
+    <Layout style={{ minHeight: '100vh' }} className='page'>
+      <Header className='page-header'>
+        <Menu
+          theme='dark'
+          mode='horizontal'
+          defaultSelectedKeys={['2']}
+          items={items1}
+          className='page-header__menu'
+        />
+      </Header>
+
       <Layout>
-        <Header />
+        <Sider
+          collapsible
+          collapsed={collapsed}
+          onCollapse={(value) => setCollapsed(value)}
+          className='page-sider'
+        >
+          <Menu
+            theme='dark'
+            mode='inline'
+            items={items}
+            className='page-sider__menu'
+          />
+        </Sider>
         <Content>{children}</Content>
       </Layout>
     </Layout>
