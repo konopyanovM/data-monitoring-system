@@ -1,16 +1,17 @@
 import {
-  DesktopOutlined,
-  FileOutlined,
+  AreaChartOutlined,
+  ExclamationCircleOutlined,
+  FundOutlined,
+  HeatMapOutlined,
   PieChartOutlined,
-  TeamOutlined,
-  UserOutlined,
 } from '@ant-design/icons'
 import { Layout, Menu, MenuProps } from 'antd'
 import { FC, useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Page.css'
 import { PageProps } from './types'
 
-const Page: FC<PageProps> = ({}) => {
+const Page: FC<PageProps> = ({ children }) => {
   const [collapsed, setCollapsed] = useState(false)
   const { Header, Content, Sider } = Layout
 
@@ -31,18 +32,35 @@ const Page: FC<PageProps> = ({}) => {
   }
 
   const items: MenuItem[] = [
-    getItem('Option 1', '1', <PieChartOutlined />),
-    getItem('Option 2', '2', <DesktopOutlined />),
-    getItem('User', 'sub1', <UserOutlined />, [
-      getItem('Tom', '3'),
-      getItem('Bill', '4'),
-      getItem('Alex', '5'),
-    ]),
-    getItem('Team', 'sub2', <TeamOutlined />, [
-      getItem('Team 1', '6'),
-      getItem('Team 2', '8'),
-    ]),
-    getItem('Files', '9', <FileOutlined />),
+    getItem(
+      <Link to='/network-monitoring'>Network monitoring</Link>,
+      '1',
+      <AreaChartOutlined />,
+    ),
+    getItem(
+      <Link to='/incidents-and-alarms'>Incidents and alarms</Link>,
+      '2',
+      <ExclamationCircleOutlined />,
+    ),
+    getItem(
+      <Link to='/network-performance'>Key KPIs for network performance</Link>,
+      '3',
+      <HeatMapOutlined />,
+    ),
+    getItem(
+      <Link to='/signaling-network-monitoring'>
+        Signaling network monitoring
+      </Link>,
+      '4',
+      <FundOutlined />,
+    ),
+    getItem(
+      <Link to='/analysis-and-analytics'>
+        Analysis and analytics of flights
+      </Link>,
+      '5',
+      <PieChartOutlined />,
+    ),
   ]
 
   return (
@@ -55,8 +73,8 @@ const Page: FC<PageProps> = ({}) => {
         <Menu theme='dark' mode='inline' items={items} />
       </Sider>
       <Layout>
-        <Header style={{ padding: 0 }} />
-        <Content style={{ margin: '0 16px' }}></Content>
+        <Header />
+        <Content>{children}</Content>
       </Layout>
     </Layout>
   )
