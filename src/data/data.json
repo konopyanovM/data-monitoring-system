@@ -1,436 +1,434 @@
-{
-  "Log":[
-   {
-    "Recdate.DATE": "8\/25\/2022",
+[
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "0:00:00",
     "MSS_TR": 5007.8638,
     "TrUtil": 1.4445000000000001,
     "TrUtil_AvCH": 1.7781,
     "TrUtil_HW": 42.3487,
     "TrUtil_SW": 4.1323
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "1:00:00",
     "MSS_TR": 2410.155,
     "TrUtil": 2.8756,
     "TrUtil_AvCH": 3.5949999999999998,
     "TrUtil_HW": 86.5076,
     "TrUtil_SW": 8.4538
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "2:00:00",
     "MSS_TR": 1372.8138,
     "TrUtil": 4.9576,
     "TrUtil_AvCH": 6.2887,
     "TrUtil_HW": 150.9385,
     "TrUtil_SW": 14.8999
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "3:00:00",
     "MSS_TR": 919.8825,
     "TrUtil": 6.3895,
     "TrUtil_AvCH": 8.1596,
     "TrUtil_HW": 194.4518,
     "TrUtil_SW": 19.7403
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "4:00:00",
     "MSS_TR": 783.7725,
     "TrUtil": 6.5894,
     "TrUtil_AvCH": 8.4058,
     "TrUtil_HW": 198.7588,
     "TrUtil_SW": 20.7159
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "5:00:00",
     "MSS_TR": 1098.43,
     "TrUtil": 6.6018,
     "TrUtil_AvCH": 8.3766,
     "TrUtil_HW": 196.6458,
     "TrUtil_SW": 20.6593
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "6:00:00",
     "MSS_TR": 2570.5562,
     "TrUtil": 6.6819,
     "TrUtil_AvCH": 8.4492,
     "TrUtil_HW": 197.0144,
     "TrUtil_SW": 30.7366
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "7:00:00",
     "MSS_TR": 6868.435,
     "TrUtil": 6.6821,
     "TrUtil_AvCH": 8.4531,
     "TrUtil_HW": 196.7009,
     "TrUtil_SW": 40.887
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "8:00:00",
     "MSS_TR": 17055.8275,
     "TrUtil": 6.723,
     "TrUtil_AvCH": 8.5047,
     "TrUtil_HW": 197.6059,
     "TrUtil_SW": 31.1633
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "9:00:00",
     "MSS_TR": 32718.3288,
     "TrUtil": 6.8109,
     "TrUtil_AvCH": 8.5973,
     "TrUtil_HW": 199.8543,
     "TrUtil_SW": 21.3894
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "10:00:00",
     "MSS_TR": 45202.31,
     "TrUtil": 6.907,
     "TrUtil_AvCH": 8.7403,
     "TrUtil_HW": 203.3989,
     "TrUtil_SW": 21.5665
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "11:00:00",
     "MSS_TR": 50484.5075,
     "TrUtil": 7.0582,
     "TrUtil_AvCH": 8.9738,
     "TrUtil_HW": 208.7031,
     "TrUtil_SW": 22.3324
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "12:00:00",
     "MSS_TR": 50974.5,
     "TrUtil": 7.0546,
     "TrUtil_AvCH": 8.9129,
     "TrUtil_HW": 206.6909,
     "TrUtil_SW": 22.1965
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "13:00:00",
     "MSS_TR": 49663.2925,
     "TrUtil": 6.3724,
     "TrUtil_AvCH": 8.0351,
     "TrUtil_HW": 185.3107,
     "TrUtil_SW": 20.0857
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "14:00:00",
     "MSS_TR": 49025.8538,
     "TrUtil": 4.6425,
     "TrUtil_AvCH": 5.8913,
     "TrUtil_HW": 135.3402,
     "TrUtil_SW": 14.7864
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "15:00:00",
     "MSS_TR": 48497.0688,
     "TrUtil": 2.469,
     "TrUtil_AvCH": 3.1495,
     "TrUtil_HW": 72.3522,
     "TrUtil_SW": 7.9326
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "16:00:00",
     "MSS_TR": 47881.96,
     "TrUtil": 1.0468,
     "TrUtil_AvCH": 1.3243,
     "TrUtil_HW": 29.8417,
     "TrUtil_SW": 3.1573
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "17:00:00",
     "MSS_TR": 47906.9238,
     "TrUtil": 0.3934,
     "TrUtil_AvCH": 0.5157,
     "TrUtil_HW": 11.542300000000001,
     "TrUtil_SW": 1.2153
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "18:00:00",
     "MSS_TR": 47301.2962,
     "TrUtil": 0.1797,
     "TrUtil_AvCH": 0.2267,
     "TrUtil_HW": 4.8652,
     "TrUtil_SW": 0.4812
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "19:00:00",
     "MSS_TR": 47357.935,
     "TrUtil": 0.1243,
     "TrUtil_AvCH": 0.1565,
     "TrUtil_HW": 3.4268,
     "TrUtil_SW": 0.3327
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "20:00:00",
     "MSS_TR": 45897.2775,
     "TrUtil": 0.1411,
     "TrUtil_AvCH": 0.1772,
     "TrUtil_HW": 3.9327,
     "TrUtil_SW": 0.3697
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "21:00:00",
     "MSS_TR": 35854.655,
     "TrUtil": 0.206,
     "TrUtil_AvCH": 0.2567,
     "TrUtil_HW": 5.787,
     "TrUtil_SW": 0.5509
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "22:00:00",
     "MSS_TR": 20943.6312,
     "TrUtil": 0.3472,
     "TrUtil_AvCH": 0.426,
     "TrUtil_HW": 9.8702,
     "TrUtil_SW": 0.964
-   },
-   {
-    "Recdate.DATE": "8\/25\/2022",
+  },
+  {
+    "Recdate.DATE": "8/25/2022",
     "Recdate.TIME": "23:00:00",
     "MSS_TR": 10359.2738,
     "TrUtil": 0.6884,
     "TrUtil_AvCH": 0.8518,
     "TrUtil_HW": 20.3728,
     "TrUtil_SW": 1.9798
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "23:00:00",
     "MSS_TR": 10631.7625,
     "TrUtil": 1.4646,
     "TrUtil_AvCH": 1.8202,
     "TrUtil_HW": 43.6422,
     "TrUtil_SW": 4.2379999999999995
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "22:00:00",
     "MSS_TR": 21242.225,
     "TrUtil": 2.9331,
     "TrUtil_AvCH": 3.6582,
     "TrUtil_HW": 87.9697,
     "TrUtil_SW": 8.5684
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "21:00:00",
     "MSS_TR": 36334.1138,
     "TrUtil": 5.0551,
     "TrUtil_AvCH": 6.3911,
     "TrUtil_HW": 153.1528,
     "TrUtil_SW": 15.0509
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "20:00:00",
     "MSS_TR": 46052.1538,
     "TrUtil": 6.4645,
     "TrUtil_AvCH": 8.2297,
     "TrUtil_HW": 195.1604,
     "TrUtil_SW": 19.8811
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "19:00:00",
     "MSS_TR": 46401.205,
     "TrUtil": 6.5081,
     "TrUtil_AvCH": 8.2883,
     "TrUtil_HW": 195.1713,
     "TrUtil_SW": 20.3542
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "18:00:00",
     "MSS_TR": 46517.59,
     "TrUtil": 6.4934,
     "TrUtil_AvCH": 8.2447,
     "TrUtil_HW": 193.377,
     "TrUtil_SW": 20.2917
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "17:00:00",
     "MSS_TR": 46798.2012,
     "TrUtil": 6.5443,
     "TrUtil_AvCH": 8.2706,
     "TrUtil_HW": 192.8131,
     "TrUtil_SW": 20.4051
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "16:00:00",
     "MSS_TR": 47274.5512,
     "TrUtil": 6.5927,
     "TrUtil_AvCH": 8.3393,
     "TrUtil_HW": 193.5431,
     "TrUtil_SW": 20.5549
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "15:00:00",
     "MSS_TR": 47639.9012,
     "TrUtil": 6.6478,
     "TrUtil_AvCH": 8.4046,
     "TrUtil_HW": 194.6559,
     "TrUtil_SW": 20.7633
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "14:00:00",
     "MSS_TR": 48365.1738,
     "TrUtil": 6.7168,
     "TrUtil_AvCH": 8.5128,
     "TrUtil_HW": 197.1727,
     "TrUtil_SW": 21.012
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "13:00:00",
     "MSS_TR": 49490.1812,
     "TrUtil": 6.8655,
     "TrUtil_AvCH": 8.7448,
     "TrUtil_HW": 202.8548,
     "TrUtil_SW": 21.5984
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "12:00:00",
     "MSS_TR": 51161.6212,
     "TrUtil": 7.1128,
     "TrUtil_AvCH": 9.0157,
     "TrUtil_HW": 208.8244,
     "TrUtil_SW": 22.1401
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "11:00:00",
     "MSS_TR": 51013.71,
     "TrUtil": 7.1464,
     "TrUtil_AvCH": 8.9625,
     "TrUtil_HW": 207.0907,
     "TrUtil_SW": 22.3767
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "10:00:00",
     "MSS_TR": 46467.5275,
     "TrUtil": 6.5745000000000005,
     "TrUtil_AvCH": 8.1931,
     "TrUtil_HW": 188.7352,
     "TrUtil_SW": 20.4275
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "9:00:00",
     "MSS_TR": 33227.075,
     "TrUtil": 4.7595,
     "TrUtil_AvCH": 5.9663,
     "TrUtil_HW": 136.6595,
     "TrUtil_SW": 15.0526
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "8:00:00",
     "MSS_TR": 17338.0762,
     "TrUtil": 2.5138,
     "TrUtil_AvCH": 3.2084,
     "TrUtil_HW": 73.6634,
     "TrUtil_SW": 7.9917
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "7:00:00",
     "MSS_TR": 6861.2762,
     "TrUtil": 1.0441,
     "TrUtil_AvCH": 1.3232,
     "TrUtil_HW": 29.7784,
     "TrUtil_SW": 3.194
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "6:00:00",
     "MSS_TR": 2366.0262,
     "TrUtil": 0.3762,
     "TrUtil_AvCH": 0.4852,
     "TrUtil_HW": 10.6805,
     "TrUtil_SW": 1.091
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "5:00:00",
     "MSS_TR": 1096.7688,
     "TrUtil": 0.178,
     "TrUtil_AvCH": 0.221,
     "TrUtil_HW": 4.7569,
     "TrUtil_SW": 0.4913
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "4:00:00",
     "MSS_TR": 757.1538,
     "TrUtil": 0.1189,
     "TrUtil_AvCH": 0.1525,
     "TrUtil_HW": 3.3375,
     "TrUtil_SW": 0.3243
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "3:00:00",
     "MSS_TR": 915.1238,
     "TrUtil": 0.1415,
     "TrUtil_AvCH": 0.177,
     "TrUtil_HW": 3.9294000000000002,
     "TrUtil_SW": 0.3681
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "2:00:00",
     "MSS_TR": 1350.0775,
     "TrUtil": 0.2039,
     "TrUtil_AvCH": 0.2524,
     "TrUtil_HW": 5.6768,
     "TrUtil_SW": 0.5157
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "1:00:00",
     "MSS_TR": 2286.405,
     "TrUtil": 0.3355,
     "TrUtil_AvCH": 0.408,
     "TrUtil_HW": 9.3556,
     "TrUtil_SW": 0.8963
-   },
-   {
-    "Recdate.DATE": "8\/24\/2022",
+  },
+  {
+    "Recdate.DATE": "8/24/2022",
     "Recdate.TIME": "0:00:00",
     "MSS_TR": 4943.7862,
     "TrUtil": 0.6896,
     "TrUtil_AvCH": 0.8542,
     "TrUtil_HW": 20.2147,
     "TrUtil_SW": 1.9077
-   }
-  ]
   }
+]
