@@ -5,8 +5,11 @@ import './NetworkMonitoring.css'
 import { NetworkMonitoringProps } from './types'
 import rawData from '../data/data.json'
 import LineChartComponent from '../modules/Graphs/LineChartComponent'
+import { WithTranslation, withTranslation } from 'react-i18next'
 
-const NetworkMonitoring: FC<NetworkMonitoringProps> = () => {
+const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
+  t,
+}) => {
   return (
     <>
       <Layout style={{ minHeight: '100%', flexDirection: 'row' }}>
@@ -14,13 +17,13 @@ const NetworkMonitoring: FC<NetworkMonitoringProps> = () => {
           <BarChartComponent
             rawData={rawData}
             sortTime={'8/25/2022'}
-            label={'Today'}
+            label={t('today')}
           />
           <BarChartComponent
             rawData={rawData}
             sortTime={'8/24/2022'}
             fill={'#ff4500'}
-            label={'Yesterday '}
+            label={t('yesterday')}
           />
         </Layout>
         <Divider type='vertical' />
@@ -29,13 +32,13 @@ const NetworkMonitoring: FC<NetworkMonitoringProps> = () => {
             rawData={rawData}
             sortTime={'8/24/2022'}
             stroke={'#8884d8'}
-            label={'Graph 1'}
+            label={t('today')}
           />
           <LineChartComponent
             rawData={rawData}
             sortTime={'8/25/2022'}
             stroke={'#82ca9d'}
-            label={'Graph 2'}
+            label={t('yesterday')}
           />
         </Layout>
       </Layout>
@@ -43,4 +46,4 @@ const NetworkMonitoring: FC<NetworkMonitoringProps> = () => {
   )
 }
 
-export default NetworkMonitoring
+export default withTranslation()(NetworkMonitoring)

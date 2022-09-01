@@ -1,7 +1,9 @@
-.page-sider {
-  background: var(--blue) !important;
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.page-sider__menu {
-  background: var(--blue) !important;
+.page-header__menu {
+  flex-grow: 1;
 }
