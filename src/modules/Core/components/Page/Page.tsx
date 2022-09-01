@@ -12,7 +12,7 @@ import './Page.css'
 import { PageProps } from './types'
 
 const Page: FC<PageProps> = ({ children }) => {
-  const [collapsed, setCollapsed] = useState(false)
+  const [collapsed, setCollapsed] = useState(true)
   const { Header, Content, Sider } = Layout
 
   type MenuItem = Required<MenuProps>['items'][number]

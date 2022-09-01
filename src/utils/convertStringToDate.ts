@@ -1,6 +1,7 @@
 import { DAY } from './types/constants'
 import { dateType } from './types/types'
-const convertStringToDate = (date: dateType | Date) => {
+
+export const convertStringToDate = (date: dateType | Date) => {
   switch (date) {
     case 'today':
       return new Date()
@@ -15,5 +16,3 @@ const convertStringToDate = (date: dateType | Date) => {
       return date
   }
 }
-
-export default convertStringToDate

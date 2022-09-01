@@ -3,8 +3,6 @@ interface getDataProps {
   bar: string
 }
 
-const getData = ({ name, bar }: getDataProps) => {
+export const getData = ({ name, bar }: getDataProps) => {
   return { name, bar }
 }
-
-export default getData
