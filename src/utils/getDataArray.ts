@@ -1,9 +1,9 @@
 import { DataEnum } from '../enums/DataEnum'
-import getData from './getData'
+import { getData } from './getData'
 
 // TODO: typing
 
-const getDataArray = (data: any) => {
+export const getDataArray = (data: any) => {
   return data.map((item: any) => {
     return getData({
       name: item[DataEnum.TIME],
@@ -11,5 +11,3 @@ const getDataArray = (data: any) => {
     })
   })
 }
-
-export default getDataArray

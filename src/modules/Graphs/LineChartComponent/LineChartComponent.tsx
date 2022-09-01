@@ -1,27 +1,27 @@
 import { FC } from 'react'
 import {
-  Bar,
-  BarChart,
   CartesianGrid,
   Label,
+  Legend,
+  Line,
+  LineChart,
   Tooltip,
   XAxis,
   YAxis,
 } from 'recharts'
-import { VoiceGraphProps } from './types'
-import getDataArray from '../../../utils/getDataArray'
-import filterDataByTime from '../../../utils/filterDataByTime'
+import { filterDataByTime, getDataArray } from '../../../utils'
+import { LineChartProps } from './types/interface'
 
-const VoiceGraph: FC<VoiceGraphProps> = ({
+const LineChartComponent: FC<LineChartProps> = ({
   rawData,
   sortTime,
-  fill = '#8884d8',
+  stroke = '#8884d8',
   label,
 }) => {
   const data = getDataArray(filterDataByTime({ data: rawData, time: sortTime }))
 
   return (
-    <BarChart
+    <LineChart
       width={500}
       height={300}
       data={data}
@@ -33,14 +33,15 @@ const VoiceGraph: FC<VoiceGraphProps> = ({
       }}
     >
       <CartesianGrid strokeDasharray='3 3' />
-      <XAxis dataKey={'name'}>
-        <Label value={label} offset={-250} position='insideTop' />
+      <XAxis dataKey='name'>
+        <Label value={label} offset={-230} position='insideTop' />
       </XAxis>
       <YAxis />
       <Tooltip />
-      <Bar dataKey='bar' fill={fill} />
-    </BarChart>
+      <Legend />
+      <Line type='monotone' dataKey='bar' stroke={stroke} />
+    </LineChart>
   )
 }
 
-export default VoiceGraph
+export default LineChartComponent
