@@ -4,6 +4,7 @@ import App from './App'
 import 'antd/dist/antd.css'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
+import './settings/i18n'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 

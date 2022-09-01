@@ -2,7 +2,6 @@ import { FC } from 'react'
 import {
   CartesianGrid,
   Label,
-  Legend,
   Line,
   LineChart,
   Tooltip,
@@ -34,11 +33,10 @@ const LineChartComponent: FC<LineChartProps> = ({
     >
       <CartesianGrid strokeDasharray='3 3' />
       <XAxis dataKey='name'>
-        <Label value={label} offset={-230} position='insideTop' />
+        <Label value={label} offset={-250} position='insideTop' />
       </XAxis>
       <YAxis />
       <Tooltip />
-      <Legend />
       <Line type='monotone' dataKey='bar' stroke={stroke} />
     </LineChart>
   )
