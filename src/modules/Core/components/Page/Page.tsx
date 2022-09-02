@@ -4,6 +4,7 @@ import {
   FundOutlined,
   HeatMapOutlined,
   PieChartOutlined,
+  SettingOutlined,
 } from '@ant-design/icons'
 import { Layout, Menu, MenuProps, Radio, RadioChangeEvent } from 'antd'
 import { FC, useState } from 'react'
@@ -61,7 +62,7 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
     getItem(
       <Link to='/settings'>{t('settings')}</Link>,
       '6',
-      <PieChartOutlined />,
+      <SettingOutlined />,
     ),
   ]
 
