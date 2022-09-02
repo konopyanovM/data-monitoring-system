@@ -1,8 +1,8 @@
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import './App.css'
+import './App.less'
 import Page from './modules/Core/components/Page'
 import NetworkMonitoring from './pages/NetworkMonitoring'
+import './settings/i18n'
 
 const App = () => {
   return (
