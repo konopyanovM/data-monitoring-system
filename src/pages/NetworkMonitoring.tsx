@@ -1,4 +1,4 @@
-import { Divider, Layout } from 'antd'
+import { Layout } from 'antd'
 import { FC } from 'react'
 import BarChartComponent from '../modules/Graphs/BarChartComponent/BarChartComponent'
 import './NetworkMonitoring.css'
