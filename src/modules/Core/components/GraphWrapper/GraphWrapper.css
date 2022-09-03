@@ -1,0 +1,21 @@
+.graph-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary--color);
+  border-radius: 10px;
+}
+
+.graph-wrapper__header {
+  margin: 0px 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.graph-wrapper__label {
+  margin: 15px 0px;
+  font-size: 20px;
+  font-family: var(--font-family);
+  color: var(--heading-color);
+}
