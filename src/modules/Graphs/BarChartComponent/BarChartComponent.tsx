@@ -8,16 +8,22 @@ import GraphWrapper from '../../Core/components/GraphWrapper/GraphWrapper'
 const BarChartComponent: FC<BarChartProps> = ({
   rawData,
   sortTime,
+  valueType,
   fill = '#8884d8',
+  heading,
   label,
+  width = 500,
+  height = 300,
 }) => {
-  const data = getDataArray(filterDataByTime({ data: rawData, time: sortTime }))
+  const filteredData = filterDataByTime({ data: rawData, time: sortTime })
+
+  const data = getDataArray({ data: filteredData, valueType })
 
   return (
-    <GraphWrapper label={label}>
+    <GraphWrapper label={label} heading={heading} value={valueType}>
       <BarChart
-        width={500}
-        height={300}
+        width={width}
+        height={height}
         data={data}
         margin={{
           top: 5,
@@ -28,10 +34,10 @@ const BarChartComponent: FC<BarChartProps> = ({
         className='bar-chart'
       >
         <CartesianGrid strokeDasharray='3 3' />
-        <XAxis dataKey={'name'} />
+        <XAxis dataKey='name' />
         <YAxis />
         <Tooltip />
-        <Bar dataKey='bar' fill={fill} />
+        <Bar dataKey='value' fill={fill} />
       </BarChart>
     </GraphWrapper>
   )

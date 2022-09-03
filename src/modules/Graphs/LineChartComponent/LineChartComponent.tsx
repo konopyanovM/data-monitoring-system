@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts'
+import { DataEnum } from '../../../enums'
 import { filterDataByTime, getDataArray } from '../../../utils'
 import GraphWrapper from '../../Core/components/GraphWrapper/GraphWrapper'
 import { LineChartProps } from './types/interface'
@@ -7,16 +8,22 @@ import { LineChartProps } from './types/interface'
 const LineChartComponent: FC<LineChartProps> = ({
   rawData,
   sortTime,
+  valueType,
   stroke = '#8884d8',
+  heading,
   label,
+  width = 500,
+  height = 300,
 }) => {
-  const data = getDataArray(filterDataByTime({ data: rawData, time: sortTime }))
+  const filteredData = filterDataByTime({ data: rawData, time: sortTime })
+
+  const data = getDataArray({ data: filteredData, valueType: DataEnum.MSS_TR })
 
   return (
-    <GraphWrapper label={label}>
+    <GraphWrapper label={label} heading={heading} value={valueType}>
       <LineChart
-        width={500}
-        height={300}
+        width={width}
+        height={height}
         data={data}
         margin={{
           top: 5,
@@ -29,7 +36,7 @@ const LineChartComponent: FC<LineChartProps> = ({
         <XAxis dataKey='name' />
         <YAxis />
         <Tooltip />
-        <Line type='monotone' dataKey='bar' stroke={stroke} />
+        <Line type='monotone' dataKey='value' stroke={stroke} />
       </LineChart>
     </GraphWrapper>
   )

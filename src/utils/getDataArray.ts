@@ -1,13 +1,16 @@
 import { DataEnum } from '../enums/DataEnum'
-import { getData } from './getData'
 
-// TODO: typing
+// TODO: types
+interface getDataArrayProps {
+  data: any
+  valueType: string
+}
 
-export const getDataArray = (data: any) => {
+export const getDataArray = ({ data, valueType }: getDataArrayProps) => {
   return data.map((item: any) => {
-    return getData({
+    return {
       name: item[DataEnum.TIME],
-      bar: item.MSS_TR,
-    })
+      value: item[valueType],
+    }
   })
 }
