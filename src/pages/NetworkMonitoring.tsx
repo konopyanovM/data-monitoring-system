@@ -12,35 +12,30 @@ const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
 }) => {
   return (
     <>
-      <Layout style={{ minHeight: '100%', flexDirection: 'row' }}>
-        <Layout>
-          <BarChartComponent
-            rawData={rawData}
-            sortTime={'8/25/2022'}
-            label={t('today')}
-          />
-          <BarChartComponent
-            rawData={rawData}
-            sortTime={'8/24/2022'}
-            fill={'#ff4500'}
-            label={t('yesterday')}
-          />
-        </Layout>
-        <Divider type='vertical' />
-        <Layout>
-          <LineChartComponent
-            rawData={rawData}
-            sortTime={'8/24/2022'}
-            stroke={'#8884d8'}
-            label={t('today')}
-          />
-          <LineChartComponent
-            rawData={rawData}
-            sortTime={'8/25/2022'}
-            stroke={'#82ca9d'}
-            label={t('yesterday')}
-          />
-        </Layout>
+      <Layout className='network-monitoring'>
+        <BarChartComponent
+          rawData={rawData}
+          sortTime={'8/25/2022'}
+          label={t('today')}
+        />
+        <BarChartComponent
+          rawData={rawData}
+          sortTime={'8/24/2022'}
+          fill={'#ff4500'}
+          label={t('yesterday')}
+        />
+        <LineChartComponent
+          rawData={rawData}
+          sortTime={'8/24/2022'}
+          stroke={'#8884d8'}
+          label={t('today')}
+        />
+        <LineChartComponent
+          rawData={rawData}
+          sortTime={'8/25/2022'}
+          stroke={'#82ca9d'}
+          label={t('yesterday')}
+        />
       </Layout>
     </>
   )
