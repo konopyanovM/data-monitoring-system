@@ -1,6 +1,8 @@
 .network-monitoring {
   padding: 2rem;
   min-height: 100%;
+  max-width: 100%;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem 2rem;

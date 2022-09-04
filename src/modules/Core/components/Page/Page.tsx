@@ -59,6 +59,7 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
       '5',
       <PieChartOutlined />,
     ),
+    { type: 'divider' },
     getItem(
       <Link to='/settings'>{t('settings')}</Link>,
       '6',

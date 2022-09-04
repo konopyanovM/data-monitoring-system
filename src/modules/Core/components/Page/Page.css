@@ -7,3 +7,7 @@
 .page-header__menu {
   flex-grow: 1;
 }
+
+.page-sider .ant-menu-item-divider {
+  margin: 0px 1em;
+}

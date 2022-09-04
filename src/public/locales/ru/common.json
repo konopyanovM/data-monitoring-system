@@ -1,7 +1,18 @@
 {
-  "today": "Сегодня",
-  "yesterday": "Вчера",
+  "day":{
+    "today": "Сегодня",
+    "yesterday": "Вчера"
+  },
+  "traffic": {
+    "traffic": "Трафик",
+    "voice":"Голосовой трафик",
+    "volte":"VoLTE трафик",
+    "billing systems":"Трафик биллинг систем",
+    "data transfer":"Трафик передачи данных"
+  },
+  "data transfer": "Передача данных",
   "settings": "Настройки",
+  "load":"Нагрузка",
   "network monitoring": "Мониторинг сетей",
   "incidents and alarms": "Реагирование на инциденты и алармы",
   "key KPIs for network performance": "Ключевые KPI по работе сети",

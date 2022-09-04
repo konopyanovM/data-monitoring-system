@@ -1,7 +1,18 @@
 {
-  "today": "Today",
-  "yesterday": "Yesterday",
+  "day": {
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "traffic": {
+    "traffic": "Traffic",
+    "voice": "Voice traffic",
+    "volte": "VoLTE traffic",
+    "billing systems": "Billing systems traffic",
+    "data transfer": "Data traffic"
+  },
+  "data transfer": "Data transfer",
   "settings": "Settings",
+  "load":"Load",
   "network monitoring": "Network monitoring",
   "incidents and alarms": "Incidents and alarms",
   "key KPIs for network performance": "Key KPIs for network performance",
