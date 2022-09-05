@@ -2,6 +2,7 @@
   height: fit-content;
   padding: 20px 10px;
   display: flex;
+  flex-grow: 2;
   flex-direction: column;
   justify-content: center;
   background-color: var(--primary--color);

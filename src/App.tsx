@@ -5,7 +5,7 @@ import NetworkMonitoring from './pages/NetworkMonitoring'
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='app'>
       <Page>
         <Routes>
           <Route path='/network-monitoring' element={<NetworkMonitoring />} />
