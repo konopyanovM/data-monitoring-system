@@ -10,6 +10,7 @@
     "billing systems":"Трафик биллинг систем",
     "data transfer":"Трафик передачи данных"
   },
+  "account": "Профиль",
   "data transfer": "Передача данных",
   "settings": "Настройки",
   "load":"Нагрузка",

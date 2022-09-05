@@ -18,7 +18,7 @@ const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
           rawData={rawData}
           sortTime={'8/25/2022'}
           valueType={DataEnum.TR_UTIL_HW}
-          label={t('today')}
+          label={t('day.today')}
           heading={t('traffic.voice')}
           width={DEFAULT_WIDTH * 1.8}
         />
@@ -26,7 +26,7 @@ const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
           rawData={rawData}
           sortTime={'8/25/2022'}
           valueType={DataEnum.PS_DATA_VOL}
-          label={t('today')}
+          label={t('day.today')}
           heading={t('data transfer')}
           width={DEFAULT_WIDTH * 1.8}
         />

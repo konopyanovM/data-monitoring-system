@@ -15,7 +15,7 @@ import {
   getDataArray,
 } from '../../../utils'
 import GraphWrapper from '../../Core/components/GraphWrapper/GraphWrapper'
-import { LineChartProps } from './types/interface'
+import { LineChartProps } from './types'
 
 const LineChartComponent: FC<LineChartProps> = ({
   rawData,
