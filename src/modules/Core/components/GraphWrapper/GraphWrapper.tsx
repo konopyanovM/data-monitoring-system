@@ -18,7 +18,10 @@ const GraphWrapper: FC<GraphWrapperProps> = ({
   value,
 }) => {
   return (
-    <div className='graph-wrapper' style={{ minWidth: CHART_MIN_WIDTH, width }}>
+    <div
+      className='graph-wrapper'
+      style={{ minWidth: CHART_MIN_WIDTH, width: width }}
+    >
       <div className='graph-wrapper__header'>
         <p className='graph-wrapper__heading'>{heading}</p>
         <div>

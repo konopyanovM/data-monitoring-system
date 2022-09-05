@@ -1,0 +1,20 @@
+.network-monitoring {
+  max-width: 100%;
+  min-height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.network-monitoring__column {
+  max-width: inherit;
+  display: flex;
+  flex-direction: column;
+  /* flex-shrink: 1; */
+  row-gap: 1rem;
+}
+
+.network-monitoring__column .graph-wrapper {
+  max-width: inherit !important;
+}
