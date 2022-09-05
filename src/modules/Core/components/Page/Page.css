@@ -4,8 +4,18 @@
   align-items: center;
 }
 
-.page-header__menu {
-  flex-grow: 1;
+.page-header__statistics {
+  display: flex;
+  gap: 2rem;
+}
+
+.page-header__statistics .ant-statistic-title {
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+.page-header__statistics .ant-statistic-content {
+  font-size: 14px;
 }
 
 .page-sider .ant-menu-item-divider {
