@@ -1,5 +1,6 @@
 import {
   AreaChartOutlined,
+  ArrowUpOutlined,
   ExclamationCircleOutlined,
   FundOutlined,
   HeatMapOutlined,
@@ -7,7 +8,7 @@ import {
   SettingOutlined,
   UserOutlined,
 } from '@ant-design/icons'
-import { Layout, Menu, MenuProps, Radio, RadioChangeEvent } from 'antd'
+import { Layout, Menu, Radio, RadioChangeEvent, Statistic } from 'antd'
 import { FC, useState } from 'react'
 import { WithTranslation, withTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
@@ -79,7 +80,16 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
   return (
     <Layout style={{ minHeight: '100vh' }} className='page'>
       <Header className='page-header'>
-        {/* TODO: when data come change menu */}
+        <div className='page-header__statistics'>
+          <Statistic
+            title='Active'
+            value={11.28}
+            precision={2}
+            valueStyle={{ color: '#3f8600' }}
+            prefix={<ArrowUpOutlined />}
+            suffix='%'
+          />
+        </div>
         <Radio.Group
           options={locales}
           onChange={changeLocaleHandler}
