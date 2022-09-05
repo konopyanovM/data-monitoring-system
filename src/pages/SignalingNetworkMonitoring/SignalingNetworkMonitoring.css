@@ -1,4 +1,4 @@
-.network-monitoring {
+.signaling-network {
   max-width: 100%;
   min-height: 100%;
   padding: 1rem;
@@ -7,13 +7,13 @@
   gap: 1rem;
 }
 
-.network-monitoring__column {
+.signaling-network__column {
   max-width: inherit;
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
 }
 
-.network-monitoring__column .graph-wrapper {
+.signaling-network__column .graph-wrapper {
   max-width: inherit !important;
 }
