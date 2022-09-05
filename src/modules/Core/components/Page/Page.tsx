@@ -1,6 +1,5 @@
 import {
   AreaChartOutlined,
-  ArrowUpOutlined,
   ExclamationCircleOutlined,
   FundOutlined,
   HeatMapOutlined,
@@ -8,12 +7,14 @@ import {
   SettingOutlined,
   UserOutlined,
 } from '@ant-design/icons'
-import { Layout, Menu, Radio, RadioChangeEvent, Statistic } from 'antd'
+import { Layout, Menu, Radio, RadioChangeEvent } from 'antd'
 import { FC, useState } from 'react'
 import { WithTranslation, withTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { getNavigationItems } from '../../../../utils/getNavigationItems'
 import { Divider, NavItem } from '../../../../utils/types'
+import Card from '../Card'
+import StatisticComponent from '../StatisticComponent/StatisticComponent'
 import './Page.css'
 import { PageProps } from './types'
 
@@ -81,14 +82,25 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
     <Layout style={{ minHeight: '100vh' }} className='page'>
       <Header className='page-header'>
         <div className='page-header__statistics'>
-          <Statistic
-            title='Active'
-            value={11.28}
-            precision={2}
-            valueStyle={{ color: '#3f8600' }}
-            prefix={<ArrowUpOutlined />}
-            suffix='%'
-          />
+          <Card>
+            <StatisticComponent
+              title='Active'
+              value={11.28}
+              suffix='%'
+              type='rise'
+            />
+          </Card>
+          <Card>
+            <StatisticComponent
+              title='Idle'
+              value={5.19}
+              suffix='%'
+              type='fall'
+            />
+          </Card>
+          <Card>
+            <StatisticComponent title='Data' value={19.28} suffix='%' />
+          </Card>
         </div>
         <Radio.Group
           options={locales}
