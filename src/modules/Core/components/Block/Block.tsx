@@ -2,7 +2,7 @@ import { FC, ReactNode } from 'react'
 import './Block.css'
 
 interface BlockProps {
-  heading: string
+  heading?: string
   children: ReactNode
 }
 

@@ -30,6 +30,8 @@ const App = () => {
             path={PagesEnum.ANALYSIS_AND_ANALYTICS}
             element={<h1>Files</h1>}
           />
+          <Route path={PagesEnum.ACCOUNT} element={<h1>Profile</h1>} />
+          <Route path={PagesEnum.SETTINGS} element={<h1>Settings</h1>} />
         </Routes>
       </Page>
     </div>

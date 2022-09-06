@@ -76,11 +76,11 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
     },
     { type: 'divider' },
     {
-      label: t('account'),
+      label: <Link to={PagesEnum.ACCOUNT}>{t('account')}</Link>,
       icon: <UserOutlined />,
     },
     {
-      label: <Link to='/settings'>{t('settings')}</Link>,
+      label: <Link to={PagesEnum.SETTINGS}>{t('settings')}</Link>,
       icon: <SettingOutlined />,
     },
   ]

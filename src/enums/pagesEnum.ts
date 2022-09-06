@@ -4,4 +4,6 @@ export enum PagesEnum {
   NETWORK_PERFORMANCE = '/network-performance',
   SIGNALING_NETWORK_MONITORING = '/signaling-network-monitoring',
   ANALYSIS_AND_ANALYTICS = '/analysis-and-analytics',
+  ACCOUNT = '/account',
+  SETTINGS = '/settings',
 }

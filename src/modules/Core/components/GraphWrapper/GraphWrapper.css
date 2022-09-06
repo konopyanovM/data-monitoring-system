@@ -17,22 +17,25 @@
   justify-content: space-between;
 }
 
-.graph-wrapper__header > div {
+.graph-wrapper__row {
   display: flex;
   justify-content: space-between;
 }
-/* TODO: styles */
+
 .graph-wrapper__heading {
   max-width: fit-content;
   font-size: 20px;
   font-family: var(--font-family);
   color: var(--heading-color);
   white-space: wrap;
-  align-self: center;
 }
 
 .graph-wrapper__label {
   font-size: 14px;
   font-family: var(--font-family);
   color: var(--text-color);
+}
+
+.graph-wrapper__statistics .ant-statistic-content {
+  font-size: 18px;
 }
