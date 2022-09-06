@@ -11,16 +11,21 @@ import { Layout, Menu, Radio, RadioChangeEvent } from 'antd'
 import { FC, useState } from 'react'
 import { WithTranslation, withTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import { PagesEnum } from '../../../../enums/pagesEnum'
 import { getNavigationItems } from '../../../../utils/getNavigationItems'
 import { Divider, NavItem } from '../../../../utils/types'
 import Card from '../Card'
 import StatisticComponent from '../StatisticComponent/StatisticComponent'
 import './Page.css'
 import { PageProps } from './types'
+import { useLocation } from 'react-router-dom'
+import { getHeaderTitle } from '../../../../utils'
 
 const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
   const [collapsed, setCollapsed] = useState(true)
   const { Header, Content, Sider } = Layout
+  const location = useLocation()
+  const headerTitle = getHeaderTitle(location.pathname)
 
   const changeLocaleHandler = ({ target: { value } }: RadioChangeEvent) => {
     i18n.changeLanguage(value)
@@ -32,18 +37,22 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
 
   const rawNavItems: Array<NavItem | Divider> = [
     {
-      label: <Link to='/network-monitoring'>{t('network monitoring')}</Link>,
+      label: (
+        <Link to={PagesEnum.NETWORK_MONITORING}>{t('network monitoring')}</Link>
+      ),
       icon: <AreaChartOutlined />,
     },
     {
       label: (
-        <Link to='/incidents-and-alarms'>{t('incidents and alarms')}</Link>
+        <Link to={PagesEnum.INCIDENTS_AND_ALARMS}>
+          {t('incidents and alarms')}
+        </Link>
       ),
       icon: <ExclamationCircleOutlined />,
     },
     {
       label: (
-        <Link to='/network-performance'>
+        <Link to={PagesEnum.NETWORK_PERFORMANCE}>
           {t('key KPIs for network performance')}
         </Link>
       ),
@@ -51,7 +60,7 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
     },
     {
       label: (
-        <Link to='/signaling-network-monitoring'>
+        <Link to={PagesEnum.SIGNALING_NETWORK_MONITORING}>
           {t('signaling network monitoring')}
         </Link>
       ),
@@ -59,7 +68,7 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
     },
     {
       label: (
-        <Link to='/analysis-and-analytics'>
+        <Link to={PagesEnum.ANALYSIS_AND_ANALYTICS}>
           {t('analysis and analytics of flights')}
         </Link>
       ),
@@ -81,6 +90,7 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
   return (
     <Layout style={{ minHeight: '100vh' }} className='page'>
       <Header className='page-header'>
+        <div className='page-header__title'>{t(headerTitle)}</div>
         <div className='page-header__statistics'>
           <Card>
             <StatisticComponent
