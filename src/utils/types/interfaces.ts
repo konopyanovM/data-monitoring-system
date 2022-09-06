@@ -1,9 +1,7 @@
-import { MenuItem } from './types'
-
 export interface NavItem {
   label: React.ReactNode
   icon?: React.ReactNode
-  children?: MenuItem[]
+  children?: NavItem[]
 }
 
 export interface Divider {

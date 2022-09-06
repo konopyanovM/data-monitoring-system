@@ -18,9 +18,9 @@ const SignalingNetworkMonitoring: FC<
       <div className='signaling-network__column'>
         <AreaChartComponent
           rawData={rawData}
-          sortTime={'8/24/2022'}
+          sortTime={'8/25/2022'}
           valueType={DataEnum.Attach_SR_3G}
-          label={t('day.yesterday')}
+          label={t('day.today')}
           heading={t('traffic.data transfer')}
           width={width}
           height={200}
@@ -37,7 +37,9 @@ const SignalingNetworkMonitoring: FC<
         />
       </div>
       <div className='signaling-network__column'>
-        <Block>asdkfjalfjalsn</Block>
+        <Block>
+          Здесь будет содержаться информация о мониторинге сигнальной сети
+        </Block>
       </div>
     </section>
   )

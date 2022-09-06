@@ -38,13 +38,13 @@ const GraphWrapper: FC<GraphWrapperProps> = ({
       <div className='graph-wrapper__header'>
         <div className='graph-wrapper__row'>
           <p className='graph-wrapper__heading'>{heading}</p>
-          <p className='graph-wrapper__statistics'>
+          <div className='graph-wrapper__statistics'>
             <StatisticComponent
               value={ratio}
               type={statisticState}
               suffix={'%'}
             />
-          </p>
+          </div>
         </div>
         <div className='graph-wrapper__row'>
           <p className='graph-wrapper__label'>{label}</p>

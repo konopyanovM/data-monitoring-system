@@ -41,6 +41,20 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
         <Link to={PagesEnum.NETWORK_MONITORING}>{t('network monitoring')}</Link>
       ),
       icon: <AreaChartOutlined />,
+      // children: [
+      //   {
+      //     label: <p>{t('traffic.voice')}</p>,
+      //     icon: <AreaChartOutlined />,
+      //   },
+      //   {
+      //     label: <p>{t('traffic.data transfer')}</p>,
+      //     icon: <AreaChartOutlined />,
+      //   },
+      //   {
+      //     label: <p>{t('traffic.billing systems')}</p>,
+      //     icon: <AreaChartOutlined />,
+      //   },
+      // ],
     },
     {
       label: (
