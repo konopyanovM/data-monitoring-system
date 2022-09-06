@@ -6,6 +6,13 @@ import NetworkMonitoring from './pages/NetworkMonitoring'
 import SignalingNetworkMonitoring from './pages/SignalingNetworkMonitoring'
 
 const App = () => {
+  const styleCenter = {
+    height: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: '50px',
+  }
   return (
     <div className='app'>
       <Page>
@@ -16,11 +23,15 @@ const App = () => {
           />
           <Route
             path={PagesEnum.INCIDENTS_AND_ALARMS}
-            element={<h1>Hello</h1>}
+            element={
+              <div style={styleCenter}>Incident and alarms (Not ready)</div>
+            }
           />
           <Route
             path={PagesEnum.NETWORK_PERFORMANCE}
-            element={<h1>Files</h1>}
+            element={
+              <div style={styleCenter}>Network performance (Not ready)</div>
+            }
           />
           <Route
             path={PagesEnum.SIGNALING_NETWORK_MONITORING}
@@ -28,10 +39,18 @@ const App = () => {
           />
           <Route
             path={PagesEnum.ANALYSIS_AND_ANALYTICS}
-            element={<h1>Files</h1>}
+            element={
+              <div style={styleCenter}>Analysis and analytics (Not ready)</div>
+            }
           />
-          <Route path={PagesEnum.ACCOUNT} element={<h1>Profile</h1>} />
-          <Route path={PagesEnum.SETTINGS} element={<h1>Settings</h1>} />
+          <Route
+            path={PagesEnum.ACCOUNT}
+            element={<div style={styleCenter}>Account (Not ready)</div>}
+          />
+          <Route
+            path={PagesEnum.SETTINGS}
+            element={<div style={styleCenter}>Settings (Not ready)</div>}
+          />
         </Routes>
       </Page>
     </div>

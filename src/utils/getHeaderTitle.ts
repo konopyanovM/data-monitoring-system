@@ -12,6 +12,10 @@ export const getHeaderTitle = (location: string): string => {
       return 'signaling network monitoring'
     case PagesEnum.ANALYSIS_AND_ANALYTICS:
       return 'analysis and analytics of flights'
+    case PagesEnum.ACCOUNT:
+      return 'account'
+    case PagesEnum.SETTINGS:
+      return 'settings'
     default:
       return ''
   }

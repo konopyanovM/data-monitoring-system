@@ -6,14 +6,3 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
-
-.network-monitoring__column {
-  max-width: inherit;
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
-}
-
-.network-monitoring__column .graph-wrapper {
-  max-width: inherit !important;
-}

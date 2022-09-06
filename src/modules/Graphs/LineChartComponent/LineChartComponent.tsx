@@ -22,7 +22,7 @@ const LineChartComponent: FC<LineChartProps> = ({
   sortTime,
   valueType,
   stroke = '#8884d8',
-  heading,
+  heading = valueType,
   label,
   width = DEFAULT_WIDTH,
   height = DEFAULT_HEIGHT,
