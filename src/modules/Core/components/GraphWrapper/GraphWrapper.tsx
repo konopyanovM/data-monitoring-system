@@ -1,5 +1,8 @@
 import { FC, ReactNode } from 'react'
-import { CHART_MIN_WIDTH } from '../../../../utils'
+import { CHART_MIN_WIDTH, getLast, getRatio } from '../../../../utils'
+import { getStatisticType } from '../../../../utils'
+import { Data } from '../../../../utils/types'
+import StatisticComponent from '../StatisticComponent/StatisticComponent'
 import './GraphWrapper.css'
 
 interface GraphWrapperProps {
@@ -7,7 +10,9 @@ interface GraphWrapperProps {
   width: number
   heading?: string
   label?: string
-  value?: string
+  data: Data[]
+  valueState?: boolean
+  valueType?: string
 }
 
 const GraphWrapper: FC<GraphWrapperProps> = ({
@@ -15,18 +20,35 @@ const GraphWrapper: FC<GraphWrapperProps> = ({
   width,
   heading,
   label,
-  value,
+  data,
+  valueType,
 }) => {
+  const currentValue = getLast(data).value
+  const ratio = getRatio(currentValue, +data[data.length - 2].value, true)
+  const statisticState = getStatisticType(
+    currentValue,
+    +data[data.length - 2].value,
+  )
+
   return (
     <div
       className='graph-wrapper'
       style={{ minWidth: CHART_MIN_WIDTH, width: width }}
     >
       <div className='graph-wrapper__header'>
-        <p className='graph-wrapper__heading'>{heading}</p>
-        <div>
+        <div className='graph-wrapper__row'>
+          <p className='graph-wrapper__heading'>{heading}</p>
+          <p className='graph-wrapper__statistics'>
+            <StatisticComponent
+              value={ratio}
+              type={statisticState}
+              suffix={'%'}
+            />
+          </p>
+        </div>
+        <div className='graph-wrapper__row'>
           <p className='graph-wrapper__label'>{label}</p>
-          <p className='graph-wrapper__label'>{value}</p>
+          <p className='graph-wrapper__label'>{valueType}</p>
         </div>
       </div>
       <div>{children}</div>

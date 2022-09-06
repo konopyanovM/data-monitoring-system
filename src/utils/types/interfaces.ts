@@ -9,3 +9,8 @@ export interface NavItem {
 export interface Divider {
   type: 'divider'
 }
+
+export interface Data {
+  name: string
+  value: string | number
+}

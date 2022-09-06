@@ -5,6 +5,7 @@ import { WithTranslation, withTranslation } from 'react-i18next'
 import { DataEnum } from '../../enums'
 import { DEFAULT_WIDTH } from '../../utils'
 import AreaChartComponent from '../../modules/Graphs/AreaChartComponent/AreaChartComponent'
+import Block from '../../modules/Core/components/Block'
 
 interface SignalingNetworkMonitoringProps {}
 
@@ -35,7 +36,9 @@ const SignalingNetworkMonitoring: FC<
           height={200}
         />
       </div>
-      <div className='signaling-network__column'></div>
+      <div className='signaling-network__column'>
+        <Block>asdkfjalfjalsn</Block>
+      </div>
     </section>
   )
 }

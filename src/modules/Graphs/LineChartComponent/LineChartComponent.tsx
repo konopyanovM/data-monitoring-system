@@ -28,14 +28,14 @@ const LineChartComponent: FC<LineChartProps> = ({
   height = DEFAULT_HEIGHT,
 }) => {
   const filteredData = filterDataByTime({ data: rawData, time: sortTime })
-
   const data = getDataArray({ data: filteredData, valueType: valueType })
 
   return (
     <GraphWrapper
       label={label}
       heading={heading}
-      value={valueType}
+      data={data}
+      valueType={valueType}
       width={width}
     >
       <ResponsiveContainer width='100%' height={height}>
