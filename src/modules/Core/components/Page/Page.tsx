@@ -43,15 +43,15 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
       icon: <AreaChartOutlined />,
       children: [
         {
-          label: <a href='#voice_traffic'>{t('traffic.voice')}</a>,
+          label: t('traffic.voice'),
           key: 'NMSub1',
         },
         {
-          label: <a href='#data_transfer'>{t('traffic.data transfer')}</a>,
+          label: t('traffic.data transfer'),
           key: 'NMSub2',
         },
         {
-          label: <a href='#billing_systems'>{t('traffic.billing systems')}</a>,
+          label: t('traffic.billing systems'),
           key: 'NMSub3',
         },
       ],

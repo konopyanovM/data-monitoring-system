@@ -25,6 +25,10 @@
   font-size: 14px;
 }
 
+.page-sider a {
+  color: var(--text-color);
+}
+
 .page-sider .ant-menu-item-divider {
   margin: 0px 1em;
 }

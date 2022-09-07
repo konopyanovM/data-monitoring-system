@@ -3,9 +3,7 @@ import { rawData } from './../../types/interfaces'
 
 export interface AreaChartComponentProps {
   rawData: rawData[]
-  sortTime: string
   valueType: string | DataEnum
-  fill?: string
   heading?: string
   label?: string
   width?: number

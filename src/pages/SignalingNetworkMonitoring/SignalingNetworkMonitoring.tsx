@@ -18,7 +18,6 @@ const SignalingNetworkMonitoring: FC<
       <div className='signaling-network__column'>
         <AreaChartComponent
           rawData={rawData}
-          sortTime={'8/25/2022'}
           valueType={DataEnum.Attach_SR_3G}
           label={t('day.today')}
           heading={t('traffic.data transfer')}
@@ -27,10 +26,8 @@ const SignalingNetworkMonitoring: FC<
         />
         <AreaChartComponent
           rawData={rawData}
-          sortTime='8/25/2022'
           valueType={DataEnum.Attach_SR_4G}
           label={t('day.today')}
-          fill='#82ca9d'
           heading={t('traffic.billing systems')}
           width={width}
           height={200}
