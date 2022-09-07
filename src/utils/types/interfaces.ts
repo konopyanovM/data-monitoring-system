@@ -1,6 +1,7 @@
 export interface NavItem {
   label: React.ReactNode
   icon?: React.ReactNode
+  key?: number | string
   children?: NavItem[]
 }
 

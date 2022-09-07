@@ -6,3 +6,11 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+.network-monitoring .row {
+  position: relative;
+}
+
+.network-monitoring .scroll-anchor {
+  top: -3.5rem;
+}

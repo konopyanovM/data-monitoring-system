@@ -22,6 +22,7 @@ const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
   return (
     <section className='network-monitoring'>
       <div className='row'>
+        <div className='scroll-anchor' id='voice_traffic'></div>
         <div className='column'>
           <BarChartComponent
             rawData={rawData}
@@ -68,6 +69,7 @@ const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
       </div>
       <Divider />
       <div className='row'>
+        <div className='scroll-anchor' id='data_transfer'></div>
         <div className='column'>
           <BarChartComponent
             rawData={rawData}
@@ -114,6 +116,7 @@ const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
       </div>
       <Divider />
       <div className='row'>
+        <div className='scroll-anchor' id='billing_systems'></div>
         <div className='column'>
           <BarChartComponent
             rawData={rawData}
