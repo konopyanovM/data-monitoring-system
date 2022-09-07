@@ -8,27 +8,22 @@ import {
   XAxis,
   YAxis,
 } from 'recharts'
-import {
-  DEFAULT_HEIGHT,
-  DEFAULT_WIDTH,
-  filterDataByTime,
-  getDataArray,
-} from '../../../utils'
+import { ColorsEnum } from '../../../enums/ColorsEnum'
+import { DEFAULT_HEIGHT, DEFAULT_WIDTH, getDataArray } from '../../../utils'
 import GraphWrapper from '../../Core/components/GraphWrapper/GraphWrapper'
 import { AreaChartComponentProps } from './types'
 
 const AreaChartComponent: FC<AreaChartComponentProps> = ({
   rawData,
-  sortTime,
   valueType,
-  fill = '#8884d8',
   heading,
   label,
   width = DEFAULT_WIDTH,
   height = DEFAULT_HEIGHT,
 }) => {
-  const filteredData = filterDataByTime({ data: rawData, time: sortTime })
-  const data = getDataArray({ data: filteredData, valueType })
+  const firstColor = ColorsEnum.purple
+  const secondColor = ColorsEnum.green
+  const data = getDataArray({ data: rawData, valueType })
 
   return (
     <GraphWrapper
@@ -46,9 +41,13 @@ const AreaChartComponent: FC<AreaChartComponentProps> = ({
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
         >
           <defs>
-            <linearGradient id='colorUv' x1='0' y1='0' x2='0' y2='1'>
-              <stop offset='5%' stopColor={fill} stopOpacity={0.8} />
-              <stop offset='95%' stopColor={fill} stopOpacity={0} />
+            <linearGradient id='firstColor' x1='0' y1='0' x2='0' y2='1'>
+              <stop offset='5%' stopColor={firstColor} stopOpacity={0.8} />
+              <stop offset='95%' stopColor={firstColor} stopOpacity={0} />
+            </linearGradient>
+            <linearGradient id='secondColor' x1='0' y1='0' x2='0' y2='1'>
+              <stop offset='5%' stopColor={secondColor} stopOpacity={0.8} />
+              <stop offset='95%' stopColor={secondColor} stopOpacity={0} />
             </linearGradient>
           </defs>
           <XAxis dataKey='name' />
@@ -57,10 +56,17 @@ const AreaChartComponent: FC<AreaChartComponentProps> = ({
           <Tooltip />
           <Area
             type='monotone'
-            dataKey='value'
-            stroke='#8884d8'
+            dataKey='value_1'
+            stroke={ColorsEnum.purple}
             fillOpacity={1}
-            fill='url(#colorUv)'
+            fill='url(#firstColor)'
+          />
+          <Area
+            type='monotone'
+            dataKey='value_2'
+            stroke={ColorsEnum.green}
+            fillOpacity={1}
+            fill='url(#secondColor)'
           />
         </AreaChart>
       </ResponsiveContainer>

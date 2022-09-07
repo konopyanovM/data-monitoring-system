@@ -8,36 +8,33 @@ import {
   XAxis,
   YAxis,
 } from 'recharts'
-import {
-  getDataArray,
-  filterDataByTime,
-  DEFAULT_WIDTH,
-  DEFAULT_HEIGHT,
-} from '../../../utils'
+import { getDataArray, DEFAULT_WIDTH, DEFAULT_HEIGHT } from '../../../utils'
 import { BarChartProps } from './types'
 import './BarChartComponent.css'
 import GraphWrapper from '../../Core/components/GraphWrapper/GraphWrapper'
+import { ColorsEnum } from '../../../enums/ColorsEnum'
 
 const BarChartComponent: FC<BarChartProps> = ({
   rawData,
-  sortTime,
   valueType,
-  fill = '#8884d8',
   heading,
   label,
   width = DEFAULT_WIDTH,
   height = DEFAULT_HEIGHT,
+  showFooter = true,
 }) => {
-  const filteredData = filterDataByTime({ data: rawData, time: sortTime })
-  const data = getDataArray({ data: filteredData, valueType })
+  const colors = [ColorsEnum.green, ColorsEnum.purple]
+  const data = getDataArray({ data: rawData, valueType })
 
   return (
     <GraphWrapper
       label={label}
       heading={heading}
+      colors={colors}
       data={data}
       valueType={valueType}
       width={width}
+      showFooter={showFooter}
     >
       <ResponsiveContainer width='100%' height={height}>
         <BarChart
@@ -53,7 +50,8 @@ const BarChartComponent: FC<BarChartProps> = ({
           <XAxis dataKey='name' />
           <YAxis />
           <Tooltip />
-          <Bar dataKey='value' fill={fill} />
+          <Bar dataKey='value_2' fill={colors[1]} />
+          <Bar dataKey='value_1' fill={colors[0]} />
         </BarChart>
       </ResponsiveContainer>
     </GraphWrapper>

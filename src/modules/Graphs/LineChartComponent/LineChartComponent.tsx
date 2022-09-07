@@ -8,35 +8,32 @@ import {
   XAxis,
   YAxis,
 } from 'recharts'
-import {
-  DEFAULT_WIDTH,
-  DEFAULT_HEIGHT,
-  filterDataByTime,
-  getDataArray,
-} from '../../../utils'
+import { ColorsEnum } from '../../../enums/ColorsEnum'
+import { DEFAULT_WIDTH, DEFAULT_HEIGHT, getDataArray } from '../../../utils'
 import GraphWrapper from '../../Core/components/GraphWrapper/GraphWrapper'
 import { LineChartProps } from './types'
 
 const LineChartComponent: FC<LineChartProps> = ({
   rawData,
-  sortTime,
   valueType,
-  stroke = '#8884d8',
   heading = valueType,
   label,
   width = DEFAULT_WIDTH,
   height = DEFAULT_HEIGHT,
+  showFooter = true,
 }) => {
-  const filteredData = filterDataByTime({ data: rawData, time: sortTime })
-  const data = getDataArray({ data: filteredData, valueType: valueType })
+  const colors = [ColorsEnum.green, ColorsEnum.purple]
+  const data = getDataArray({ data: rawData, valueType })
 
   return (
     <GraphWrapper
       label={label}
       heading={heading}
+      colors={colors}
       data={data}
       valueType={valueType}
       width={width}
+      showFooter={showFooter}
     >
       <ResponsiveContainer width='100%' height={height}>
         <LineChart
@@ -52,7 +49,8 @@ const LineChartComponent: FC<LineChartProps> = ({
           <XAxis dataKey='name' />
           <YAxis />
           <Tooltip />
-          <Line type='monotone' dataKey='value' stroke={stroke} />
+          <Line type='monotone' dataKey='value_2' stroke={colors[1]} />
+          <Line type='monotone' dataKey='value_1' stroke={colors[0]} />
         </LineChart>
       </ResponsiveContainer>
     </GraphWrapper>
