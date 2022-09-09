@@ -3,6 +3,7 @@ import './App.css'
 import { PagesEnum } from './enums/pagesEnum'
 import Page from './modules/Core/components/Page'
 import NetworkMonitoring from './pages/NetworkMonitoring'
+import NetworkPerformance from './pages/NetworkPerformance'
 import SignalingNetworkMonitoring from './pages/SignalingNetworkMonitoring'
 
 const App = () => {
@@ -29,9 +30,7 @@ const App = () => {
           />
           <Route
             path={PagesEnum.NETWORK_PERFORMANCE}
-            element={
-              <div style={styleCenter}>Network performance (Not ready)</div>
-            }
+            element={<NetworkPerformance />}
           />
           <Route
             path={PagesEnum.SIGNALING_NETWORK_MONITORING}

@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, useRef } from 'react'
 import BarChartComponent from '../../modules/Graphs/BarChartComponent/BarChartComponent'
 import './NetworkMonitoring.css'
 import rawData from '../../data/fullData.json'
@@ -12,12 +12,15 @@ import { Divider } from 'antd'
 const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
   t,
 }) => {
+  const voiceTrafficRef = useRef<HTMLDivElement>(null)
+  const dataTransferRef = useRef<HTMLDivElement>(null)
+  const billingSystemsRef = useRef<HTMLDivElement>(null)
   const HEIGHT = DEFAULT_HEIGHT * 2
 
   return (
     <section className='network-monitoring'>
       <div className='row'>
-        <div className='scroll-anchor' id='voice_traffic'></div>
+        <div className='scroll-anchor' ref={voiceTrafficRef}></div>
         <div className='column'>
           <BarChartComponent
             rawData={rawData}
@@ -59,7 +62,7 @@ const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
       </div>
       <Divider />
       <div className='row'>
-        <div className='scroll-anchor' id='data_transfer'></div>
+        <div className='scroll-anchor' ref={dataTransferRef}></div>
         <div className='column'>
           <BarChartComponent
             rawData={rawData}
@@ -101,7 +104,7 @@ const NetworkMonitoring: FC<NetworkMonitoringProps & WithTranslation> = ({
       </div>
       <Divider />
       <div className='row'>
-        <div className='scroll-anchor' id='billing_systems'></div>
+        <div className='scroll-anchor' ref={billingSystemsRef}></div>
         <div className='column'>
           <BarChartComponent
             rawData={rawData}

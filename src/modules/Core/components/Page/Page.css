@@ -32,3 +32,14 @@
 .page-sider .ant-menu-item-divider {
   margin: 0px 1em;
 }
+
+.page-sider .ant-layout-sider-children {
+  max-width: inherit;
+}
+
+.page-sider__menu {
+  max-width: inherit;
+  margin-top: 40vh;
+  position: fixed;
+  transform: translateY(-50%);
+}

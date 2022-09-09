@@ -43,15 +43,25 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
       icon: <AreaChartOutlined />,
       children: [
         {
-          label: t('traffic.voice'),
+          label: (
+            <Link to={PagesEnum.NETWORK_MONITORING}>{t('traffic.voice')}</Link>
+          ),
           key: 'NMSub1',
         },
         {
-          label: t('traffic.data transfer'),
+          label: (
+            <Link to={PagesEnum.NETWORK_MONITORING}>
+              {t('traffic.data transfer')}
+            </Link>
+          ),
           key: 'NMSub2',
         },
         {
-          label: t('traffic.billing systems'),
+          label: (
+            <Link to={PagesEnum.NETWORK_MONITORING}>
+              {t('traffic.billing systems')}
+            </Link>
+          ),
           key: 'NMSub3',
         },
       ],
@@ -141,7 +151,6 @@ const Page: FC<PageProps & WithTranslation> = ({ children, t, i18n }) => {
           onCollapse={(value) => setCollapsed(value)}
           className='page-sider'
         >
-          {/* TODO: change config colors for dark and light themes */}
           <Menu
             theme='dark'
             mode='inline'

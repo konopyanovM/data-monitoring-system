@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, useEffect, useState } from 'react'
 import {
   Bar,
   BarChart,
@@ -17,14 +17,20 @@ import { ColorsEnum } from '../../../enums/ColorsEnum'
 const BarChartComponent: FC<BarChartProps> = ({
   rawData,
   valueType,
-  heading,
+  additionalValue = '',
+  heading = valueType,
   label,
   width = DEFAULT_WIDTH,
   height = DEFAULT_HEIGHT,
   showFooter = true,
 }) => {
   const colors = [ColorsEnum.green, ColorsEnum.purple]
-  const data = getDataArray({ data: rawData, valueType })
+  const [data, setData] = useState<any>(
+    getDataArray({ data: rawData, valueType, additionalValue }),
+  )
+  useEffect(() => {
+    setData(getDataArray({ data: rawData, valueType, additionalValue }))
+  }, [rawData, valueType, additionalValue])
 
   return (
     <GraphWrapper

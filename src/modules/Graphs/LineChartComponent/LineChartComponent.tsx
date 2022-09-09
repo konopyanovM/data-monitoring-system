@@ -16,6 +16,7 @@ import { LineChartProps } from './types'
 const LineChartComponent: FC<LineChartProps> = ({
   rawData,
   valueType,
+  additionalValue = '',
   heading = valueType,
   label,
   width = DEFAULT_WIDTH,
@@ -23,7 +24,7 @@ const LineChartComponent: FC<LineChartProps> = ({
   showFooter = true,
 }) => {
   const colors = [ColorsEnum.green, ColorsEnum.purple]
-  const data = getDataArray({ data: rawData, valueType })
+  const data = getDataArray({ data: rawData, valueType, additionalValue })
 
   return (
     <GraphWrapper
