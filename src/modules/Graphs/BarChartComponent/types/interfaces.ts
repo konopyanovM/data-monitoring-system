@@ -4,6 +4,7 @@ import { rawData } from '../../types/interfaces'
 export interface BarChartProps {
   rawData: rawData[]
   valueType: string | DataEnum
+  additionalValue?: string
   heading?: string
   label?: string
   width?: number

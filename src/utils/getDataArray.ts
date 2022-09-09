@@ -1,17 +1,19 @@
 import { TIME_ARRAY } from './constants'
-import { filterDataByTime } from './filterDataByTime'
 import { DataEnum } from '../enums/DataEnum'
 import { Data } from './types'
+import { filterData } from './filterData'
 
 // TODO: types
 interface getDataArrayProps {
   data: any
   valueType: string
+  additionalValue?: string
 }
 
 export const getDataArray = ({
   data,
   valueType,
+  additionalValue,
 }: getDataArrayProps): Data[] => {
   const daysArray = data.map((item: any) => {
     return item[DataEnum.DATE]
@@ -21,7 +23,7 @@ export const getDataArray = ({
   let filteredData: any = []
 
   daysSet.forEach((item) => {
-    filteredData.push(filterDataByTime({ data, time: item }))
+    filteredData.push(filterData({ data, time: item, bsc: additionalValue }))
   })
 
   return TIME_ARRAY.map((item: any, index) => {

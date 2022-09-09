@@ -1,5 +1,6 @@
 export * from './constants'
 export * from './filterDataByTime'
+export * from './filterData'
 export * from './getDataArray'
 export * from './getItem'
 export * from './getHeaderTitle'

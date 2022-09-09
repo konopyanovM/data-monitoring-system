@@ -39,7 +39,7 @@ const GraphWrapper: FC<GraphWrapperProps> = ({
   let legends = []
   for (let i = 0; i < currentValue.dates.size; i++) {
     legends.push(
-      <p className='graph-wrapper__legend'>
+      <p className='graph-wrapper__legend' key={i}>
         <span
           className='graph-wrapper__legend-color'
           style={{ backgroundColor: colors?.[i] }}

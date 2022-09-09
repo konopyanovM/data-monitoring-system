@@ -1,7 +1,7 @@
 [
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "0:00:00",
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "0:00:00",
     "MSS_TR": 5007.8638,
     "TrUtil": 1.4445000000000001,
     "TrUtil_AvCH": 1.7781,
@@ -29,10 +29,10 @@
     "Sent TC_ABORT Messages (times)": 2,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 168
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "1:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "1:00:00",
     "MSS_TR": 2410.155,
     "TrUtil": 2.8756,
     "TrUtil_AvCH": 3.5949999999999998,
@@ -60,10 +60,10 @@
     "Sent TC_ABORT Messages (times)": 1,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 107
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "2:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "2:00:00",
     "MSS_TR": 1372.8138,
     "TrUtil": 4.9576,
     "TrUtil_AvCH": 6.2887,
@@ -91,10 +91,10 @@
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 99
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "3:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "3:00:00",
     "MSS_TR": 919.8825,
     "TrUtil": 6.3895,
     "TrUtil_AvCH": 8.1596,
@@ -122,10 +122,10 @@
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 0,
     "Number of Received PlayAnnouncement Messages (times)": 81
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "4:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "4:00:00",
     "MSS_TR": 783.7725,
     "TrUtil": 6.5894,
     "TrUtil_AvCH": 8.4058,
@@ -153,10 +153,10 @@
     "Sent TC_ABORT Messages (times)": 2,
     "Received TC_ABORT Messages (times)": 0,
     "Number of Received PlayAnnouncement Messages (times)": 91
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "5:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "5:00:00",
     "MSS_TR": 1098.43,
     "TrUtil": 6.6018,
     "TrUtil_AvCH": 8.3766,
@@ -184,10 +184,10 @@
     "Sent TC_ABORT Messages (times)": 4,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 86
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "6:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "6:00:00",
     "MSS_TR": 2570.5562,
     "TrUtil": 6.6819,
     "TrUtil_AvCH": 8.4492,
@@ -215,10 +215,10 @@
     "Sent TC_ABORT Messages (times)": 3,
     "Received TC_ABORT Messages (times)": 0,
     "Number of Received PlayAnnouncement Messages (times)": 117
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "7:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "7:00:00",
     "MSS_TR": 6868.435,
     "TrUtil": 6.6821,
     "TrUtil_AvCH": 8.4531,
@@ -242,14 +242,14 @@
     "ACH/IDP": 0.925064108652294,
     "PlayAnnouncement Messages (times)": 0.0111121663975686,
     "TC_ABORT_R": 0,
-    "TC_ABORT_S": 9.49757811758002E-05,
+    "TC_ABORT_S": 9.49757811758002e-5,
     "Sent TC_ABORT Messages (times)": 1,
     "Received TC_ABORT Messages (times)": 0,
     "Number of Received PlayAnnouncement Messages (times)": 117
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "8:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "8:00:00",
     "MSS_TR": 17055.8275,
     "TrUtil": 6.723,
     "TrUtil_AvCH": 8.5047,
@@ -277,10 +277,10 @@
     "Sent TC_ABORT Messages (times)": 3,
     "Received TC_ABORT Messages (times)": 0,
     "Number of Received PlayAnnouncement Messages (times)": 76
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "9:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "9:00:00",
     "MSS_TR": 32718.3288,
     "TrUtil": 6.8109,
     "TrUtil_AvCH": 8.5973,
@@ -308,10 +308,10 @@
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 2,
     "Number of Received PlayAnnouncement Messages (times)": 47
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "10:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "10:00:00",
     "MSS_TR": 45202.31,
     "TrUtil": 6.907,
     "TrUtil_AvCH": 8.7403,
@@ -334,15 +334,15 @@
     "Sent ApplyChargingReport Messages (times)": 20633,
     "ACH/IDP": 0.930672079386558,
     "PlayAnnouncement Messages (times)": 0.0024808299503834,
-    "TC_ABORT_R": 9.021199819576E-05,
-    "TC_ABORT_S": 4.510599909788E-05,
+    "TC_ABORT_R": 9.021199819576e-5,
+    "TC_ABORT_S": 4.510599909788e-5,
     "Sent TC_ABORT Messages (times)": 1,
     "Received TC_ABORT Messages (times)": 2,
     "Number of Received PlayAnnouncement Messages (times)": 55
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "11:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "11:00:00",
     "MSS_TR": 50484.5075,
     "TrUtil": 7.0582,
     "TrUtil_AvCH": 8.9738,
@@ -365,15 +365,15 @@
     "Sent ApplyChargingReport Messages (times)": 22247,
     "ACH/IDP": 0.925955215183551,
     "PlayAnnouncement Messages (times)": 0.00158161991176226,
-    "TC_ABORT_R": 8.32431532506451E-05,
+    "TC_ABORT_R": 8.32431532506451e-5,
     "TC_ABORT_S": 0,
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 2,
     "Number of Received PlayAnnouncement Messages (times)": 38
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "12:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "12:00:00",
     "MSS_TR": 50974.5,
     "TrUtil": 7.0546,
     "TrUtil_AvCH": 8.9129,
@@ -397,14 +397,14 @@
     "ACH/IDP": 0.928957557162685,
     "PlayAnnouncement Messages (times)": 0.00168018116736065,
     "TC_ABORT_R": 0.000109577032653956,
-    "TC_ABORT_S": 7.30513551026372E-05,
+    "TC_ABORT_S": 7.30513551026372e-5,
     "Sent TC_ABORT Messages (times)": 2,
     "Received TC_ABORT Messages (times)": 3,
     "Number of Received PlayAnnouncement Messages (times)": 46
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "13:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "13:00:00",
     "MSS_TR": 49663.2925,
     "TrUtil": 6.3724,
     "TrUtil_AvCH": 8.0351,
@@ -427,15 +427,15 @@
     "Sent ApplyChargingReport Messages (times)": 30179,
     "ACH/IDP": 0.917266952372268,
     "PlayAnnouncement Messages (times)": 0.00182365277651135,
-    "TC_ABORT_R": 9.11826388255676E-05,
+    "TC_ABORT_R": 9.11826388255676e-5,
     "TC_ABORT_S": 0,
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 3,
     "Number of Received PlayAnnouncement Messages (times)": 60
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "14:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "14:00:00",
     "MSS_TR": 49025.8538,
     "TrUtil": 4.6425,
     "TrUtil_AvCH": 5.8913,
@@ -458,15 +458,15 @@
     "Sent ApplyChargingReport Messages (times)": 32852,
     "ACH/IDP": 0.922239065745887,
     "PlayAnnouncement Messages (times)": 0.00126326427488631,
-    "TC_ABORT_R": 2.80725394419179E-05,
+    "TC_ABORT_R": 2.80725394419179e-5,
     "TC_ABORT_S": 0,
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 45
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "15:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "15:00:00",
     "MSS_TR": 48497.0688,
     "TrUtil": 2.469,
     "TrUtil_AvCH": 3.1495,
@@ -489,15 +489,15 @@
     "Sent ApplyChargingReport Messages (times)": 35274,
     "ACH/IDP": 0.931080902731952,
     "PlayAnnouncement Messages (times)": 0.000844661475518015,
-    "TC_ABORT_R": 5.27913422198759E-05,
+    "TC_ABORT_R": 5.27913422198759e-5,
     "TC_ABORT_S": 0,
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 2,
     "Number of Received PlayAnnouncement Messages (times)": 32
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "16:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "16:00:00",
     "MSS_TR": 47881.96,
     "TrUtil": 1.0468,
     "TrUtil_AvCH": 1.3243,
@@ -520,15 +520,15 @@
     "Sent ApplyChargingReport Messages (times)": 37388,
     "ACH/IDP": 0.921317858110939,
     "PlayAnnouncement Messages (times)": 0.00113353539833912,
-    "TC_ABORT_R": 7.39262216308125E-05,
-    "TC_ABORT_S": 2.46420738769375E-05,
+    "TC_ABORT_R": 7.39262216308125e-5,
+    "TC_ABORT_S": 2.46420738769375e-5,
     "Sent TC_ABORT Messages (times)": 1,
     "Received TC_ABORT Messages (times)": 3,
     "Number of Received PlayAnnouncement Messages (times)": 46
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "17:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "17:00:00",
     "MSS_TR": 47906.9238,
     "TrUtil": 0.3934,
     "TrUtil_AvCH": 0.5157,
@@ -551,15 +551,15 @@
     "Sent ApplyChargingReport Messages (times)": 40566,
     "ACH/IDP": 0.930882555417871,
     "PlayAnnouncement Messages (times)": 0.00119326265546836,
-    "TC_ABORT_R": 2.29473587590068E-05,
+    "TC_ABORT_R": 2.29473587590068e-5,
     "TC_ABORT_S": 0,
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 52
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "18:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "18:00:00",
     "MSS_TR": 47301.2962,
     "TrUtil": 0.1797,
     "TrUtil_AvCH": 0.2267,
@@ -582,15 +582,15 @@
     "Sent ApplyChargingReport Messages (times)": 40151,
     "ACH/IDP": 0.930541392416798,
     "PlayAnnouncement Messages (times)": 0.00104292203578381,
-    "TC_ABORT_R": 6.95281357189209E-05,
+    "TC_ABORT_R": 6.95281357189209e-5,
     "TC_ABORT_S": 0,
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 3,
     "Number of Received PlayAnnouncement Messages (times)": 45
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "19:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "19:00:00",
     "MSS_TR": 47357.935,
     "TrUtil": 0.1243,
     "TrUtil_AvCH": 0.1565,
@@ -618,10 +618,10 @@
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 0,
     "Number of Received PlayAnnouncement Messages (times)": 54
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "20:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "20:00:00",
     "MSS_TR": 45897.2775,
     "TrUtil": 0.1411,
     "TrUtil_AvCH": 0.1772,
@@ -644,15 +644,15 @@
     "Sent ApplyChargingReport Messages (times)": 41390,
     "ACH/IDP": 0.931389095164158,
     "PlayAnnouncement Messages (times)": 0.0011251378293841,
-    "TC_ABORT_R": 2.2502756587682E-05,
+    "TC_ABORT_R": 2.2502756587682e-5,
     "TC_ABORT_S": 0,
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 50
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "21:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "21:00:00",
     "MSS_TR": 35854.655,
     "TrUtil": 0.206,
     "TrUtil_AvCH": 0.2567,
@@ -675,15 +675,15 @@
     "Sent ApplyChargingReport Messages (times)": 41985,
     "ACH/IDP": 0.929859142452162,
     "PlayAnnouncement Messages (times)": 0.0011516654854713,
-    "TC_ABORT_R": 2.21474131821403E-05,
+    "TC_ABORT_R": 2.21474131821403e-5,
     "TC_ABORT_S": 0,
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 52
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "22:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "22:00:00",
     "MSS_TR": 20943.6312,
     "TrUtil": 0.3472,
     "TrUtil_AvCH": 0.426,
@@ -711,10 +711,10 @@
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 0,
     "Number of Received PlayAnnouncement Messages (times)": 67
-   },
-   {
-    "Recdate.DATE": "8/25/2022",
-    "Recdate.TIME": "23:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/25/2022",
+    "RECDATE.TIME": "23:00:00",
     "MSS_TR": 10359.2738,
     "TrUtil": 0.6884,
     "TrUtil_AvCH": 0.8518,
@@ -737,15 +737,15 @@
     "Sent ApplyChargingReport Messages (times)": 41924,
     "ACH/IDP": 0.932452570005115,
     "PlayAnnouncement Messages (times)": 0.00197949333867129,
-    "TC_ABORT_R": 2.22414981873179E-05,
+    "TC_ABORT_R": 2.22414981873179e-5,
     "TC_ABORT_S": 0,
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 89
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "23:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "23:00:00",
     "MSS_TR": 10631.7625,
     "TrUtil": 1.4646,
     "TrUtil_AvCH": 1.8202,
@@ -773,10 +773,10 @@
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 2,
     "Number of Received PlayAnnouncement Messages (times)": 112
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "22:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "22:00:00",
     "MSS_TR": 21242.225,
     "TrUtil": 2.9331,
     "TrUtil_AvCH": 3.6582,
@@ -804,10 +804,10 @@
     "Sent TC_ABORT Messages (times)": 1,
     "Received TC_ABORT Messages (times)": 2,
     "Number of Received PlayAnnouncement Messages (times)": 119
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "21:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "21:00:00",
     "MSS_TR": 36334.1138,
     "TrUtil": 5.0551,
     "TrUtil_AvCH": 6.3911,
@@ -835,10 +835,10 @@
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 0,
     "Number of Received PlayAnnouncement Messages (times)": 157
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "20:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "20:00:00",
     "MSS_TR": 46052.1538,
     "TrUtil": 6.4645,
     "TrUtil_AvCH": 8.2297,
@@ -866,10 +866,10 @@
     "Sent TC_ABORT Messages (times)": 0,
     "Received TC_ABORT Messages (times)": 1,
     "Number of Received PlayAnnouncement Messages (times)": 171
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "19:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "19:00:00",
     "MSS_TR": 46401.205,
     "TrUtil": 6.5081,
     "TrUtil_AvCH": 8.2883,
@@ -897,10 +897,10 @@
     "Sent TC_ABORT Messages (times)": 15,
     "Received TC_ABORT Messages (times)": 0,
     "Number of Received PlayAnnouncement Messages (times)": 288
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "18:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "18:00:00",
     "MSS_TR": 46517.59,
     "TrUtil": 6.4934,
     "TrUtil_AvCH": 8.2447,
@@ -928,10 +928,10 @@
     "Sent TC_ABORT Messages (times)": 1,
     "Received TC_ABORT Messages (times)": 2,
     "Number of Received PlayAnnouncement Messages (times)": 430
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "17:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "17:00:00",
     "MSS_TR": 46798.2012,
     "TrUtil": 6.5443,
     "TrUtil_AvCH": 8.2706,
@@ -959,10 +959,10 @@
     "Sent TC_ABORT Messages (times)": 5,
     "Received TC_ABORT Messages (times)": 4,
     "Number of Received PlayAnnouncement Messages (times)": 484
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "16:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "16:00:00",
     "MSS_TR": 47274.5512,
     "TrUtil": 6.5927,
     "TrUtil_AvCH": 8.3393,
@@ -990,10 +990,10 @@
     "Sent TC_ABORT Messages (times)": 2,
     "Received TC_ABORT Messages (times)": 2,
     "Number of Received PlayAnnouncement Messages (times)": 659
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "15:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "15:00:00",
     "MSS_TR": 47639.9012,
     "TrUtil": 6.6478,
     "TrUtil_AvCH": 8.4046,
@@ -1021,10 +1021,10 @@
     "Sent TC_ABORT Messages (times)": 11,
     "Received TC_ABORT Messages (times)": 5,
     "Number of Received PlayAnnouncement Messages (times)": 744
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "14:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "14:00:00",
     "MSS_TR": 48365.1738,
     "TrUtil": 6.7168,
     "TrUtil_AvCH": 8.5128,
@@ -1052,10 +1052,10 @@
     "Sent TC_ABORT Messages (times)": 8,
     "Received TC_ABORT Messages (times)": 7,
     "Number of Received PlayAnnouncement Messages (times)": 878
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "13:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "13:00:00",
     "MSS_TR": 49490.1812,
     "TrUtil": 6.8655,
     "TrUtil_AvCH": 8.7448,
@@ -1083,10 +1083,10 @@
     "Sent TC_ABORT Messages (times)": 16,
     "Received TC_ABORT Messages (times)": 6,
     "Number of Received PlayAnnouncement Messages (times)": 820
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "12:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "12:00:00",
     "MSS_TR": 51161.6212,
     "TrUtil": 7.1128,
     "TrUtil_AvCH": 9.0157,
@@ -1114,10 +1114,10 @@
     "Sent TC_ABORT Messages (times)": 34,
     "Received TC_ABORT Messages (times)": 11,
     "Number of Received PlayAnnouncement Messages (times)": 875
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "11:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "11:00:00",
     "MSS_TR": 51013.71,
     "TrUtil": 7.1464,
     "TrUtil_AvCH": 8.9625,
@@ -1145,10 +1145,10 @@
     "Sent TC_ABORT Messages (times)": 46,
     "Received TC_ABORT Messages (times)": 12,
     "Number of Received PlayAnnouncement Messages (times)": 897
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "10:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "10:00:00",
     "MSS_TR": 46467.5275,
     "TrUtil": 6.5745000000000005,
     "TrUtil_AvCH": 8.1931,
@@ -1176,10 +1176,10 @@
     "Sent TC_ABORT Messages (times)": 19,
     "Received TC_ABORT Messages (times)": 6,
     "Number of Received PlayAnnouncement Messages (times)": 1020
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "9:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "9:00:00",
     "MSS_TR": 33227.075,
     "TrUtil": 4.7595,
     "TrUtil_AvCH": 5.9663,
@@ -1207,10 +1207,10 @@
     "Sent TC_ABORT Messages (times)": 21,
     "Received TC_ABORT Messages (times)": 6,
     "Number of Received PlayAnnouncement Messages (times)": 1056
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "8:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "8:00:00",
     "MSS_TR": 17338.0762,
     "TrUtil": 2.5138,
     "TrUtil_AvCH": 3.2084,
@@ -1238,10 +1238,10 @@
     "Sent TC_ABORT Messages (times)": 40,
     "Received TC_ABORT Messages (times)": 5,
     "Number of Received PlayAnnouncement Messages (times)": 1002
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "7:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "7:00:00",
     "MSS_TR": 6861.2762,
     "TrUtil": 1.0441,
     "TrUtil_AvCH": 1.3232,
@@ -1269,10 +1269,10 @@
     "Sent TC_ABORT Messages (times)": 62,
     "Received TC_ABORT Messages (times)": 17,
     "Number of Received PlayAnnouncement Messages (times)": 966
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "6:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "6:00:00",
     "MSS_TR": 2366.0262,
     "TrUtil": 0.3762,
     "TrUtil_AvCH": 0.4852,
@@ -1300,10 +1300,10 @@
     "Sent TC_ABORT Messages (times)": 28,
     "Received TC_ABORT Messages (times)": 13,
     "Number of Received PlayAnnouncement Messages (times)": 1075
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "5:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "5:00:00",
     "MSS_TR": 1096.7688,
     "TrUtil": 0.178,
     "TrUtil_AvCH": 0.221,
@@ -1326,15 +1326,15 @@
     "Sent ApplyChargingReport Messages (times)": 42045,
     "ACH/IDP": 0.935122992749433,
     "PlayAnnouncement Messages (times)": 0.024620790890085,
-    "TC_ABORT_R": 8.89640140563142E-05,
+    "TC_ABORT_R": 8.89640140563142e-5,
     "TC_ABORT_S": 0.000911881144077221,
     "Sent TC_ABORT Messages (times)": 41,
     "Received TC_ABORT Messages (times)": 4,
     "Number of Received PlayAnnouncement Messages (times)": 1107
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "4:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "4:00:00",
     "MSS_TR": 757.1538,
     "TrUtil": 0.1189,
     "TrUtil_AvCH": 0.1525,
@@ -1362,10 +1362,10 @@
     "Sent TC_ABORT Messages (times)": 25,
     "Received TC_ABORT Messages (times)": 13,
     "Number of Received PlayAnnouncement Messages (times)": 1111
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "3:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "3:00:00",
     "MSS_TR": 915.1238,
     "TrUtil": 0.1415,
     "TrUtil_AvCH": 0.177,
@@ -1393,10 +1393,10 @@
     "Sent TC_ABORT Messages (times)": 64,
     "Received TC_ABORT Messages (times)": 17,
     "Number of Received PlayAnnouncement Messages (times)": 1175
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "2:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "2:00:00",
     "MSS_TR": 1350.0775,
     "TrUtil": 0.2039,
     "TrUtil_AvCH": 0.2524,
@@ -1424,10 +1424,10 @@
     "Sent TC_ABORT Messages (times)": 67,
     "Received TC_ABORT Messages (times)": 18,
     "Number of Received PlayAnnouncement Messages (times)": 1105
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "1:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "1:00:00",
     "MSS_TR": 2286.405,
     "TrUtil": 0.3355,
     "TrUtil_AvCH": 0.408,
@@ -1455,10 +1455,10 @@
     "Sent TC_ABORT Messages (times)": 32,
     "Received TC_ABORT Messages (times)": 12,
     "Number of Received PlayAnnouncement Messages (times)": 1249
-   },
-   {
-    "Recdate.DATE": "8/24/2022",
-    "Recdate.TIME": "0:00:00",
+  },
+  {
+    "RECDATE.DATE": "8/24/2022",
+    "RECDATE.TIME": "0:00:00",
     "MSS_TR": 4943.7862,
     "TrUtil": 0.6896,
     "TrUtil_AvCH": 0.8542,
@@ -1486,5 +1486,5 @@
     "Sent TC_ABORT Messages (times)": 39,
     "Received TC_ABORT Messages (times)": 13,
     "Number of Received PlayAnnouncement Messages (times)": 1166
-   }
-  ]
+  }
+]
